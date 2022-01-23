@@ -67,8 +67,7 @@ class ConversationsApp extends React.Component {
   };
 
   getToken = () => {
-    // Paste your unique Chat token function
-    const myToken = "<Your token here>";
+    const myToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzJiZDY5N2I4NTZkYTdjM2Q5ZWFlZjAyYWY5NDYzYTQwLTE2NDI5MDE2MzkiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJ0ZXN0UGluZWFwcGxlIiwiY2hhdCI6eyJzZXJ2aWNlX3NpZCI6IklTNWY5MjE4ODFmYzkwNDVmYmJhNmM2MTQ5ZDMyMjcxZWYifX0sImlhdCI6MTY0MjkwMTYzOSwiZXhwIjoxNjQyOTA1MjM5LCJpc3MiOiJTSzJiZDY5N2I4NTZkYTdjM2Q5ZWFlZjAyYWY5NDYzYTQwIiwic3ViIjoiQUM4YThkNTUxNjliOWU4MDJjNDkwNzU2NmY0ODFmYTU3YiJ9.fdbcvEB8DDWh3aYerNyzJyNAazM-H_wkfh0tYVpl5O0";
     this.setState({ token: myToken }, this.initConversations);
   };
 
